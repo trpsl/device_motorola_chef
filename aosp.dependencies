@@ -13,7 +13,7 @@
   },
   {
     "remote":      "github",
-    "repository":  "Hasaber8/proprietary_vendor_motorola",
+    "repository":  "erfanoabdi/proprietary_vendor_motorola",
     "target_path": "vendor/motorola",
     "branch":      "lineage-16.0"
   },
@@ -25,8 +25,8 @@
   },
   {
     "remote":      "github",
-    "repository":  "moto-SDM660/android_device_motorola_sdm660-common",
+    "repository":  "PixelExperience-Devices/device_motorola_sdm660-common",
     "target_path": "device/motorola/sdm660-common",
-    "branch": "lineage-16.0"
+    "branch": "pie"
   }
 ]
