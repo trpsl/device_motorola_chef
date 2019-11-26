@@ -17,7 +17,6 @@
 # Inherit some common Lineage stuff.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
-
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
@@ -77,4 +76,4 @@ PRODUCT_RELEASE_NAME := chef
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=chef
 
-BUILD_FINGERPRINT := motorola/chef/chef_sprout:9/PPTS29.74-41-3/45809c:user/release-keys
+BUILD_FINGERPRINT := motorola/chef/chef_sprout:9/PPTS29.74-41-5-8/9a9d1:user/release-keys
