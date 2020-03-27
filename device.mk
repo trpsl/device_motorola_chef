@@ -20,6 +20,9 @@ $(call inherit-product-if-exists, vendor/motorola/chef/chef-vendor.mk)
 # Properties
 -include $(LOCAL_PATH)/vendor_prop.mk
 
+# MotoCamera2
+$(call inherit-product-if-exists, packages/apps/MotoCamera2/motocamera2.mk)
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
