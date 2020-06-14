@@ -1,15 +1,15 @@
 [
   {
-    "remote":     "github",
-    "repository": "Hasaber8/android_kernel_motorola_sdm660",
-   "target_path": "kernel/motorola/msm8998",
-   "branch":      "lineage-17.1"
+    "remote":      "github",
+    "repository":  "LineageOS/android_kernel_motorola_msm8998",
+    "target_path": "kernel/motorola/msm8998",
+    "branch":      "lineage-17.1"
   },
   {
     "remote":      "github",
-    "repository":  "Hasaber8/proprietary_vendor_motorola",
+    "repository":  "PixelExperience-Devices/vendor_motorola_chef",
     "target_path": "vendor/motorola",
-    "branch":      "lineage-17.1"
+    "branch":      "ten"
   },
   {
     "remote":      "github",
